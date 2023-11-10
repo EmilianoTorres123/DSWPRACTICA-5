@@ -1,0 +1,6 @@
+org/uv/HibernateUtil.class
+org/uv/Cliente.class
+org/uv/Usuario.class
+org/uv/BeanIndex.class
+org/uv/Venta.class
+org/uv/VentaDetalle.class
