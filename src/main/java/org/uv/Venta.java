@@ -28,6 +28,8 @@ import javax.persistence.Table;
 @Entity
 @Table(name="venta")
 public class Venta implements Serializable {
+    
+
     @Id
     @GeneratedValue(generator = "venta_idventa_seq", strategy = GenerationType.SEQUENCE)
     @SequenceGenerator(name = "venta_idventa_seq", sequenceName = "venta_idventa_seq", 
@@ -87,6 +89,7 @@ public class Venta implements Serializable {
     public void setTotal(BigDecimal total) {
         this.total = total;
     }
+    
 //
 //    public Long getIdCliente() {
 //        return idCliente;
